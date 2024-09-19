@@ -32,7 +32,7 @@ Run a container from the image and bind it to port 8000, then navigate to http:/
 
 You can also create a virtual environment and clone the repo.
 ```
-insert github link here
+git clone https://github.com/descrazy03/budget_api_project.git
 ```
 Once the repository is cloned, run the following command:
 ```
@@ -41,3 +41,9 @@ fastapi run api_main.py
 Then, navigate to http://127.0.0.1:8000/docs to view the automatic documentation.
 
 ## Usage
+
+The tables in the database can be accessed directly through the automatic documentation at http://127.0.0.1:8000/docs.
+
+![alt text](images/create_record.png)
+![alt text](images/create_user.png)
+![alt text](images/endpoints.png)
