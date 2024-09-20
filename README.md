@@ -42,8 +42,16 @@ Then, navigate to http://127.0.0.1:8000/docs to view the automatic documentation
 
 ## Usage
 
+**Using FastAPI Documentation**
+
 The tables in the database can be accessed directly through the automatic documentation at http://127.0.0.1:8000/docs.
 
 ![alt text](images/create_record.png)
 ![alt text](images/create_user.png)
 ![alt text](images/endpoints.png)
+
+**Clients**
+
+Below is a very simple example of using a Python script to use the API.
+
+![alt text](images/client_example.png)
